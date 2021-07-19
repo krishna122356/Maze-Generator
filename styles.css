@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+  }
+  .createNewCanvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+    width: 300px;
+  }
+  .enterCanvasHeight, .enterCanvasWidth {
+    width: 50px;
+    text-align: center;
+  }
+  .canvasDesign {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+  }
+  canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}

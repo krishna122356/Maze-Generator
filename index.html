@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Canvas</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <menu></menu>
+    </header>
+    <div class="createNewCanvas" id="userInputWindow">
+        <h2> Enter the size of your maze in squares and then click "Create"</h2><br><br>
+        <form>
+            <input type="number" id="enterCanvasWidth" placeholder="Size"><br>
+            
+            <br>
+            <select id="speed" name="speed">
+                <option value="fast">Fast</option>
+                <option value="slow">Slow</option>
+                <option value="Astar">A-star</option>
+              </select>
+              <br><br>
+              <input type="button" value="Create" id="createNewCanvas">
+        </form>
+        <br>
+        <h2>Click a square on the maze to set the start point, and then some other square as the end point.</h2>
+    </div>
+
+
+    <footer></footer>
+    <script src="code.js"></script>
+</body>
+
+</html>
